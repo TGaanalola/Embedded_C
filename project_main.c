@@ -1,39 +1,42 @@
-#include "project_config.h"
-
-#include "user_utils.h"
-#include "blinky.h"
-
 /**
- * @brief Initialize all the Peripherals and pin configurations 
- **/
-
-void peripheral_init(void)
-{
-	/* Configure LED Pin */
-	DDRB |= (1 << DDB0);
-}
-
-void change_led_state(uint8_t state)
-{
-	LED_PORT = (state << LED_PIN);
-}
-/**
- * @return int Return 0 if the program completes successfully
- * @note PORTB0 is in sink config. i.e when pin is Low, the LED will turn OFF
- * @note PORTB0 is in sink config. i.e when pin is High, the LED will turn ON
+ * @file main.c
+ * @author T Gaanalola (gaanalola31@gmail.com)
+ * @brief Embedded C project
+ * @version 0.1
+ * @date 2021-04-29
+ * 
+ * @copyright Copyright (c) 2021
+ * 
  */
+
+#include "act1.h"
+#include "act2.h"
+#include "act3.h"
+#include "act4.h"
+#include <util/delay.h>
+
 int main(void)
 {
-	/* Initialize Peripherals */
-	peripheral_init();
 
-	for(;;)
-	{
-        change_led_state(LED_ON);
-		delay_ms(LED_ON_TIME);
-		
-        change_led_state(LED_OFF);
-		delay_ms(LED_OFF_TIME);	
-	}
-	return 0;
-}
+/**
+ * @brief Main function
+ * 
+ * @return int 
+ */
+	
+    while(1)
+    {
+        uint16_t var=0;
+        char temperature_op;
+        //act1
+        detectUser();  
+        //act2/3/4         
+        if (detectUser()==1)
+        {
+            var=Read_ADC(0);
+            temperature_op= OutPWM(var);
+            dispOP(temperature_op);
+        }
+    }
+    return 0;
+}	

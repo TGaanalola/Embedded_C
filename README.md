@@ -1,6 +1,9 @@
 # Embedded_C
 
 # Embedded C Programming Examples with Continuous Integration and Code Quality
+# Case Study
+![image](https://user-images.githubusercontent.com/81503646/116689305-8d60ed80-a9d5-11eb-985f-7e256fd56d2e.png)
+
 # Activity 1
 ## ON
 ![ON](https://user-images.githubusercontent.com/81503646/116676215-57ffd400-a9c4-11eb-8044-19b25b04330f.png)

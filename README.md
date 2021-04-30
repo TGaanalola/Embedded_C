@@ -8,6 +8,8 @@
 ![OFF](https://user-images.githubusercontent.com/81503646/116676319-7960c000-a9c4-11eb-9b1c-18db94e0a1b0.png)
 # Activity 2
 ![image](https://user-images.githubusercontent.com/81503646/116684388-8a163380-a9ce-11eb-9613-e2ed9fe2c662.png)
+# Activity 3
+![image](https://user-images.githubusercontent.com/81503646/116685744-7966bd00-a9d0-11eb-9884-e1dc6bfea6f3.png)
 
 
 #### CI and Code Quality

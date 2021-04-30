@@ -6,6 +6,8 @@
 ![ON](https://user-images.githubusercontent.com/81503646/116676215-57ffd400-a9c4-11eb-8044-19b25b04330f.png)
 ## OFF
 ![OFF](https://user-images.githubusercontent.com/81503646/116676319-7960c000-a9c4-11eb-9b1c-18db94e0a1b0.png)
+# Activity 2
+![image](https://user-images.githubusercontent.com/81503646/116684388-8a163380-a9ce-11eb-9613-e2ed9fe2c662.png)
 
 
 #### CI and Code Quality

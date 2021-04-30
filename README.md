@@ -1,5 +1,13 @@
 # Embedded_C
 
+# Embedded C Programming Examples with Continuous Integration and Code Quality
+# Activity 1
+## ON
+![ON](https://user-images.githubusercontent.com/81503646/116676215-57ffd400-a9c4-11eb-8044-19b25b04330f.png)
+## OFF
+![OFF](https://user-images.githubusercontent.com/81503646/116676319-7960c000-a9c4-11eb-9b1c-18db94e0a1b0.png)
+
+
 #### CI and Code Quality
 
 |Build|Cppcheck|Codacy|
